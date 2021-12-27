@@ -43,6 +43,7 @@ function filter_list(l) {
     + JavaScript/Frontend course (in progress)
 * **A1QA Academy**
     + Functional testing course (2017)
+    
 ## Languages
 * English - B2
 * Russian - Native
