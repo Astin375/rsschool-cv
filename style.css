@@ -1,0 +1,7 @@
+.container-1 {
+    display: flex;
+}
+
+.container-1 div {
+    padding: 10px;
+}
