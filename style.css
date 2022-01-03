@@ -1,18 +1,31 @@
 body {
-    max-width: 1080px;
+    max-width: 1000px;
     min-width: 600px;
     margin: 0 auto;
     padding: 2rem;
-    background-color: rgb(255, 250, 239)
+    background-color: rgb(255, 250, 239);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .navbar {
     display: flex;
     flex-flow: row wrap;
-    align-content: flex-end;
-    max-width: 400px;
+    min-width: 500px;
     justify-content: space-around;
+}
+
+
+.navbar li {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+
+.navbar li {
+    display: flex;
+    min-width: min-content;
+    font-size: 20px;
 }
 
 
@@ -20,19 +33,65 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-flow: row wrap
+    flex-flow: row wrap;
     align-content: flex-start;
-    height: 200px;
-    border: 1px solid blue;
+    min-height: 150px;
+    /* border: 1px solid blue; */
 }
 .photo-name div {
-    min-width: 100px;
-    border: 1px solid red;
+    min-width: 300px;
+    /* border: 1px solid red; */
 }
 
 
 .avatar {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 100%;
+}
+
+
+.part-line {
+    border: none;
+    background-color: darkcyan;
+    color: darkcyan;
+    height: 2px;
+}
+
+
+.svgs {
+    height: 18px;
+    width: 18px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 200px;
+    /* border: 1px solid blue; */
+}
+
+
+.main-container div {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.left-stuff {
+    width: 300px;
+    /* border: 1px solid green; */
+}
+
+.right-stuff {
+    width: 700px;
+    /* border: 1px solid greenyellow; */
+}
+
+.nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 30px;
+    justify-content: flex-end;
+    /* border: 1px solid blue;     */
 }

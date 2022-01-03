@@ -5,41 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Artsemi Stayanau</title>
+    <link rel="icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="navbar">
+        <nav class="nav-container">
+            <ul class="navbar" type="none">
                 <li><a href="#Contacts">Contacts</a></li>
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#Experience">Experience</a></li>
                 <li><a href="#Education">Education</a></li>
             </ul>
         </nav>
+        <hr class="part-line">
         <div class="photo-name">
-            <div>
+            <div style="text-align: left;">
                 <img class="avatar" src="assets/img/papug.jpg" alt="тут был папуг">
             </div>
-            <div style="width: 700px; display: flex; flex-direction: column; align-items: center;">
-                <div ><h1>Artsemi Stayanau</h1></div>
-                <div><h3>Junior Front-End Developer</h3></div>
+            <div style="display: flex; flex-direction: column; align-items: space-around; width: 400px;">
+                <div><h1 style="text-align: left;">Artsemi Stayanau</h1></div>
+                <div><h3 style="text-align: left;">Junior Front-End Developer</h3></div>
             </div>
-        </div>
-        
-        
+            <div>
+                <h3 id="contacts" style="padding-left: 40px; line-height: 0.69;">Contact info</h3>
+                <ul type="none">
+                    <li><img src="./assets/svg/discord.svg" alt="DS" class="svgs">Artemis#7379</li>
+                    <li><a href="https://github.com/Astin375"><img src="./assets/svg/github.svg" alt="GH" class="svgs">Astin375</a></li>
+                    <li><a href="mailto:stojanka25@gmail.com"><img src="./assets/svg/gmail.svg" alt="GM" class="svgs">stojanka25@gmail.com</a></li>
+                    <li><a href="https://t.me/Carbon_Chill"><img src="./assets/svg/telegram.svg" alt="TG" class="svgs">Carbon_Chill</a></li>
+                </ul>
+            </div>
+        </div> 
+        <hr class="part-line">
     </header>
-    <main>
-        <h2 id="Contacts">Contacts</h2>
-        <h2>About me</h2>
-        <h2 id="Skills">Skills</h2>
-        <h2>Code Example</h2>
-        <h2>Languages</h2>
-        <h2 id="Experience">Experience</h2>
-        <h2 id="Education">Education</h2>
+    <main class="main-container">
+        <div>
+            <section class="left-stuff">
+                <h2 id="Skills">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>SQL</li>
+                    <li>Git/Github</li>
+                    <li>Functional testing</li>
+                </ul>     
+            </section>  
+            <section class="right-stuff">    
+                <h2>About me</h2>
+                <article style="width: 700px;">I'm currently working as Data Processing Specialist at EPAM Systems. My duties mostly consist of routine work, such as reporting, creating/updating presentations with little amount of data analysis. Being a curious and sometimes even inquisitive person, I always pay high attention to details and look for ways to improving my work. Front-end development is a new and unknown field for me, but my goal is to constantly study and grow as a professional.</article>
+            </section>
+        </div>
+        <div>
+            <section class="left-stuff">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - B2</li>
+                    <li>Czech - A2</li>
+                </ul>
+            </section>
+            <section class="right-stuff">
+                <h2>Code example</h2>
+<pre style="padding: 0; margin: 0;"><code>function filter_list(l) {
+    // Return a new array with the strings filtered out
+    return l.filter(function(x) {
+        if (typeof(x) === 'number')
+        return true;
+    });
+}</code></pre>
+            </section>
+        </div>
+        <div>
+            <section class="left-stuff">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="https://astin375.github.io/rsschool-cv/">RS School CV</a></li>
+                </ul>
+            </section>
+            <section class="right-stuff">
+                <h2 id="Education">Education</h2>
+                <ul>
+                    <li>Belarusian State University of Informatics and Radioelectronics
+                        <ul>
+                            <li>Information Security department (2019)</li>
+                        </ul>
+                    </li>
+                    <li>Rolling Scopes School
+                        <ul>
+                            <li>JavaScript/Frontend course (in progress)</li>
+                        </ul>
+                    </li>
+                    <li>A1QA Academy
+                        <ul>
+                            <li>Functional testing course (2017)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div>
+            <section class="left-stuff"></section>
+            <section class="right-stuff">
+                <h2 id="Experience">Experience</h2>
+                <ul>
+                    <li><b>EPAM Systems</b> (since 2018)
+                        <ul>
+                            <li><i>(currently)</i> Data processing specialist (Reporting, analysis, business communication)</li>
+                            <li>Quality validator, Team lead (Managing the group of 10 Agents working according to "processing by small teams" scheme, mentoring agents, performing validation of agents' work)</li>
+                            <li>Service desk specialist (Working strictly following the guidance, annotating neccessary information)</li>
+                        </ul>
+                    </li>
+                    <li><b>BSUIR</b> (Sep 2019 - Apr 2021)
+                        <ul>
+                            <li>Engineer (Upgrading and maintenance of education facilities (hardware and software))</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
-<h2>Footer stuff</h2>
+        <hr class="part-line">
+        <h2>Footer stuff</h2>
     </footer>
 </body>
 </html>
