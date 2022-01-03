@@ -1,7 +1,38 @@
-.container-1 {
-    display: flex;
+body {
+    max-width: 1080px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(255, 250, 239)
 }
 
-.container-1 div {
-    padding: 10px;
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    max-width: 400px;
+    justify-content: space-around;
+}
+
+
+.photo-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap
+    align-content: flex-start;
+    height: 200px;
+    border: 1px solid blue;
+}
+.photo-name div {
+    min-width: 100px;
+    border: 1px solid red;
+}
+
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
 }
