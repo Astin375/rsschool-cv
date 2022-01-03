@@ -9,6 +9,7 @@ body {
 
 
 .navbar {
+    list-style: none;
     display: flex;
     flex-flow: row wrap;
     min-width: 500px;
@@ -94,4 +95,9 @@ body {
     min-height: 30px;
     justify-content: flex-end;
     /* border: 1px solid blue;     */
+}
+
+
+.no-bull {
+    list-style: none;
 }
