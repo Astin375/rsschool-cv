@@ -19,7 +19,6 @@ body {
 
 .navbar li {
     display: flex;
-    /* border: 1px solid red; */
 }
 
 
@@ -37,11 +36,9 @@ body {
     flex-flow: row wrap;
     align-content: flex-start;
     min-height: 150px;
-    /* border: 1px solid blue; */
 }
 .photo-name div {
     min-width: 300px;
-    /* border: 1px solid red; */
 }
 
 
@@ -70,23 +67,19 @@ body {
     display: flex;
     flex-flow: row wrap;
     min-height: 200px;
-    /* border: 1px solid blue; */
 }
 
 
 .main-container div {
     display: flex;
-    /* border: 1px solid red; */
 }
 
 .left-stuff {
     width: 300px;
-    /* border: 1px solid green; */
 }
 
 .right-stuff {
     width: 700px;
-    /* border: 1px solid greenyellow; */
 }
 
 .nav-container {
@@ -94,10 +87,17 @@ body {
     flex-flow: row wrap;
     min-height: 30px;
     justify-content: flex-end;
-    /* border: 1px solid blue;     */
 }
 
 
 .no-bull {
     list-style: none;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
