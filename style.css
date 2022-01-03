@@ -1,7 +1,103 @@
-.container-1 {
+body {
+    max-width: 1000px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(255, 250, 239);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 500px;
+    justify-content: space-around;
+}
+
+
+.navbar li {
     display: flex;
 }
 
-.container-1 div {
-    padding: 10px;
+
+.navbar li {
+    display: flex;
+    min-width: min-content;
+    font-size: 20px;
+}
+
+
+.photo-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    min-height: 150px;
+}
+.photo-name div {
+    min-width: 300px;
+}
+
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+
+.part-line {
+    border: none;
+    background-color: darkcyan;
+    color: darkcyan;
+    height: 2px;
+}
+
+
+.svgs {
+    height: 18px;
+    width: 18px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 200px;
+}
+
+
+.main-container div {
+    display: flex;
+}
+
+.left-stuff {
+    width: 300px;
+}
+
+.right-stuff {
+    width: 700px;
+}
+
+.nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 30px;
+    justify-content: flex-end;
+}
+
+
+.no-bull {
+    list-style: none;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
